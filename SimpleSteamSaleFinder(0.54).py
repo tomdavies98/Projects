@@ -1,10 +1,10 @@
-#Tkinter shell for steam scraper
-#This program implements threading to allow the gui to update
-#as the computations are completed
-
-#To Do:
-#Add prices to the functionality
-#Add quit button on second window
+"""
+This project consists of the use of three main libraries.
+ 1.Tkinter: To design the GUI.
+ 2.Beautiful-soup: That allowed me to easily scrape web information.
+ 3.Threading: Which made creating new threads much easier for multitasking. 
+ Written by Tom Davies 2018
+"""
 
 import time
 import tkinter as tk
@@ -19,7 +19,6 @@ from tkinter import *
 import random
 from heapq import nlargest
 
-#Top ten extra deals feature currently not working
 
 master = tk.Tk()
 master.geometry("400x225")
