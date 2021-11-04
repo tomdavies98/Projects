@@ -1,2 +1,2 @@
 # Projects
-A series of projects that I completed/attempted outside of college.
+A series of projects that I completed/attempted as a college student.
